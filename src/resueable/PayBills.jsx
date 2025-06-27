@@ -1,12 +1,16 @@
 import React from 'react'
 
-const PayBills = () => {
+const PayBills = ({icon, iconBg, title}) => {
   return (
     <div className=' flex items-center gap-4'>
-      <div className=' bg-amber-300 p-2 rounded-full'>
-        ico
+      <div
+      style={{
+        backgroundColor: iconBg,
+      }}
+      className=' p-2 rounded-full'>
+        {icon}
       </div>
-      <p>Discover Personal</p>
+      <p className=' text-[#333]'>{title}</p>
     </div>
   )
 }
