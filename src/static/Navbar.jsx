@@ -8,19 +8,19 @@ import Nigeria from "../assets/nigeria.png"
 
 const Navbar = () => {
   return (
-    <div className=' flex justify-between items-center max-w-[1024px] mx-auto px-12 py-3 font-[500] text-[#40196D]'>
+    <div className=' flex justify-between items-center max-w-[1024px] mx-auto px-12 py-3 font-[500] text-[#40196D] '>
       <div className=' flex gap-18'>
         <div className=' w-20'>
           <img src={Logo} alt="" />
         </div>
-        <div className=' flex items-center gap-10 text-[12px]'>
+        <div className=' flex items-center gap-10 text-[12px] cursor-pointer'>
           <Personal />
           <Business />
           <Company />
           <Help />
         </div>
       </div>
-      <div className=' flex items-center text-[12px] gap-6'>
+      <div className=' flex items-center text-[12px] gap-6 cursor-pointer'>
         <p>Sign in</p>
         <button className=' bg-[#40196D] py-3 px-5 rounded-[10px] text-[14px] text-white'>Join Kuda</button>
         <div className=' w-9 rounded-xl bg-[#16821643] p-2'>
