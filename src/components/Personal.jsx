@@ -26,13 +26,15 @@ const Personal = () => {
       onMouseEnter={() => setDrop(true)}
       onMouseLeave={() => setDrop(false)}
     >
-      <div className=' flex items-center justify-center gap-1 relative cursor-pointer font-[500] text-[#40196D]'>
+      <div className='  flex items-center justify-center gap-1 relative cursor-pointer font-[500] text-[#40196D]'>
         <p>Personnal</p>
         <TbCaretDownFilled size={12} />
       </div>
 
       {drop && (
-        <div className=' absolute '>
+
+
+        <div className=' absolute top-14 shadow-[0_4px_12px_rgba(0,0,0,0.2)]'>
           <div className=' flex bg-white w-[100%] '>
             <div className=' flex flex-col px-10 gap-5 py-7'>
 
@@ -132,6 +134,7 @@ const Personal = () => {
             </div>
           </div>
         </div>
+
       )}
     </div>
   )
