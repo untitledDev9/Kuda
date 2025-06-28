@@ -7,6 +7,7 @@ import Help from '../components/Help'
 import Nigeria from "../assets/nigeria.png"
 import { IoMdMenu } from "react-icons/io";
 import { TbXboxX } from "react-icons/tb";
+import MenuDrop from './MenuDrop'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -62,14 +63,17 @@ const Navbar = () => {
 
       {open && (
         <>
-          <div className=' bg-amber-300 fixed inset-0 '>
+          <div className=' bg-white fixed inset-0 overflow-auto '>
             <div className=' flex justify-between items-center px-7 py-5'>
               <div className=' w-22 '>
                 <img src={Logo} alt="" />
               </div>
               <div onClick={() => setOpen(false)}>
-                <TbXboxX size={25} />
+                <TbXboxX size={25} color='#40196D'/>
               </div>
+            </div>
+            <div>
+              <MenuDrop />
             </div>
           </div>
         </>
