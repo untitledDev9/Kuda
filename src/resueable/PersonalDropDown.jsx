@@ -18,7 +18,7 @@ import { TbMoneybag } from "react-icons/tb";
 
 const PersonalDropDown = () => {
   return (
-    <div >
+    <div className=''>
       <h1 className='hidden max-tablet:block px-6 font-bold text-[#40196D]'>Personal</h1>
       <div className=' absolute top-14 shadow-[0_4px_12px_rgba(0,0,0,0.2)]
       max-tablet:static max-tablet:shadow-[0_4px_12px_rgba(0,0,0,0)]
@@ -60,7 +60,7 @@ const PersonalDropDown = () => {
               title="Kuda Card"
             />
           </div>
-          <div className='  bg-[#b8b8b831] px-10 py-7 flex flex-col gap-5
+          <div className='  bg-[#b8b8b831] px-10 py-7 flex flex-col gap-5 w-[330px]
             max-tablet:px-6 max-tablet:text-[13px] max-tablet:bg-white
             '>
             <h1 className=' text-[#505050] max-tablet:text-[10px]'>PAYMENTS</h1>

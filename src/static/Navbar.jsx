@@ -15,12 +15,12 @@ const Navbar = () => {
     setOpen(!open)
   }
   return (
-    <div className='shadow-[0_4px_12px_rgba(0,0,0,0.2)]'>
-      <div className=' flex justify-between items-center max-w-[1440px] px-12  mx-auto py-4 
+    <div className='shadow-[0_4px_12px_rgba(0,0,0,0.2)] z-50'>
+      <div className=' flex justify-between items-center max-w-[1440px] px-12  mx-auto h-18
     max-Laptop:py-2
     max-tablet:py-4
     '>
-        <div className=' flex gap-32
+        <div className=' flex gap-32 items-center
       max-Laptop:gap-22
       '>
           <div className=' w-24
@@ -29,7 +29,7 @@ const Navbar = () => {
         '>
             <img src={Logo} alt="" />
           </div>
-          <div className=' flex items-center gap-18 text-[14px] cursor-pointer 
+          <div className=' flex items-center gap-18 text-[14px] cursor-pointer
         max-Laptop:text-[12px] max-Laptop:gap-12
         max-tablet:hidden
         '>
