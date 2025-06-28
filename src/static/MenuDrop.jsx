@@ -8,13 +8,15 @@ import PersonalDropDown from '../resueable/PersonalDropDown';
 
 const MenuDrop = () => {
   const [personal, setPersonal] = useState(false)
-  const [business, setBusiness] = useState(false)
-  const [company, setCompany] = useState(false)
-  const [contact, setContact] = useState(false)
-  const [help, setHelp] = useState(false)
+  // const [business, setBusiness] = useState(false)
+  // const [company, setCompany] = useState(false)
+  // const [contact, setContact] = useState(false)
+  // const [help, setHelp] = useState(false)
   return (
     <div>
-      <div className=' ml-36 py-4 flex gap-4'>
+      <div className=' ml-36 py-4 flex gap-4
+      max-mobile:ml-0 max-mobile:px-7
+      '>
         <Button
           text="Join Kuda"
           bgColor="#40196D"
