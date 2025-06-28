@@ -1,4 +1,4 @@
-import React, { use } from 'react'
+import React, { useState } from 'react'
 import Logo from "../assets/Kuda_Bank_Logo.png"
 import Personal from '../components/Personal'
 import Business from '../components/Business'
@@ -6,6 +6,7 @@ import Company from '../components/Company'
 import Help from '../components/Help'
 import Nigeria from "../assets/nigeria.png"
 import { IoMdMenu } from "react-icons/io";
+import { TbXboxX } from "react-icons/tb";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -14,53 +15,65 @@ const Navbar = () => {
   }
   return (
     <div className='shadow-[0_4px_12px_rgba(0,0,0,0.2)]'>
-    <div className=' flex justify-between items-center max-w-[1440px] px-12  mx-auto py-4 
+      <div className=' flex justify-between items-center max-w-[1440px] px-12  mx-auto py-4 
     max-Laptop:py-2
     max-tablet:py-4
     '>
-      <div className=' flex gap-32
+        <div className=' flex gap-32
       max-Laptop:gap-22
       '>
-        <div className=' w-24
+          <div className=' w-24
         max-Laptop:w-18
         max-tablet:w-20
         '>
-          <img src={Logo} alt="" />
-        </div>
-        <div className=' flex items-center gap-18 text-[14px] cursor-pointer 
+            <img src={Logo} alt="" />
+          </div>
+          <div className=' flex items-center gap-18 text-[14px] cursor-pointer 
         max-Laptop:text-[12px] max-Laptop:gap-12
         max-tablet:hidden
         '>
-          <Personal />
-          <Business />
-          <Company />
-          <Help />
+            <Personal />
+            <Business />
+            <Company />
+            <Help />
+          </div>
         </div>
-      </div>
-      <div className=' flex items-center text-[14px] gap-6 cursor-pointer text-[#40196D]
+        <div className=' flex items-center text-[14px] gap-6 cursor-pointer text-[#40196D]
       max-Laptop:text-[12px] max-Laptop:font-[500] max-Laptop:gap-9
       max-tablet:gap-4
       '>
-        <p className='max-tablet:hidden'>Sign in</p>
-        <button className=' bg-[#40196D] py-3 px-5 rounded-[10px] text-[14px] text-white
+          <p className='max-tablet:hidden'>Sign in</p>
+          <button className=' bg-[#40196D] py-3 px-5 rounded-[10px] text-[14px] text-white
         max-Laptop:px-6 max-Laptop:text-[13px]
         max-tablet:hidden
         '>
-          Join Kuda
+            Join Kuda
           </button>
-        <div className=' w-9 rounded-xl bg-[#16821643] p-2
+          <div className=' w-9 rounded-xl bg-[#16821643] p-2
         max-tablet:w-8
         '>
-          <img src={Nigeria} alt="" />
-        </div>
-        <div className=' hidden max-tablet:block'>
-          <IoMdMenu  size={25}/>
+            <img src={Nigeria} alt="" />
+          </div>
+          <div onClick={toggleOpen} className=' hidden max-tablet:block'>
+            <IoMdMenu size={25} />
+          </div>
         </div>
       </div>
-    </div>
 
-
-
+      {open && (
+        <>
+          <div className=' bg-amber-300 fixed inset-0 '>
+            <div className=' flex justify-between items-center px-7 py-5'>
+              <div className=' w-22 '>
+                <img src={Logo} alt="" />
+              </div>
+              <div onClick={() => setOpen(false)}>
+                <TbXboxX size={25} />
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   )
 }
