@@ -7,7 +7,7 @@ const PayBills = ({icon, iconBg, title}) => {
       style={{
         backgroundColor: iconBg,
       }}
-      className=' p-2 rounded-full
+      className=' p-2 rounded-full font-bold 
       max-tablet:p-0
       '>
         {icon}

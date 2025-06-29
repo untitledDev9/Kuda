@@ -16,6 +16,7 @@ import { TbDeviceLandlinePhone } from "react-icons/tb";
 import { MdOutlineMobileOff } from "react-icons/md";
 import { FaFileInvoiceDollar } from "react-icons/fa6";
 import PayBills from "../resueable/PayBills";
+import { TbHexagonLetterK } from "react-icons/tb";
 
 const BusinessDropDown = () => {
   return (
@@ -23,51 +24,54 @@ const BusinessDropDown = () => {
     <div className=' flex bg-white w-[100%] rounded-[5px]'>
       <div className=' flex flex-col px-10 gap-5 py-7'>
 
+
+
+
         <PayBills
-          iconBg=""
-          icon={<IoMdHome />}
+          iconBg="#00000026"
+          icon={<IoMdHome color='#'/>}
           title="Discover Business"
         />
 
         <PayBills
-          iconBg=""
-          icon={<GiArchiveRegister />}
+          iconBg="#0ccaec25"
+          icon={<GiArchiveRegister color='#'/>}
           title="Business Registration"
         />
 
         <PayBills
-          iconBg=""
-          icon='K.'
+          iconBg="#40196D3e"
+          icon={<TbHexagonLetterK size={20} color='#40196D'/>}
           title="Kuda Payroll"
         />
 
         <PayBills
-          iconBg=""
-          icon={<RiFolderOpenFill />}
+          iconBg="#00000026"
+          icon={<RiFolderOpenFill color='#'/>}
           title="Business API"
         />
 
         <PayBills
-          iconBg=""
-          icon={<SiBento />}
+          iconBg="#2029ac25"
+          icon={<SiBento color='#2029ac'/>}
           title="Payroll with Bento"
         />
 
         <PayBills
-          iconBg=""
-          icon={<IoIosPeople />}
+          iconBg="#c4871e25"
+          icon={<IoIosPeople color='#c4871e'/>}
           title="Expense Accounts"
         />
 
         <PayBills
-          iconBg=""
-          icon={<FaCreditCard />}
+          iconBg="#00000026"
+          icon={<FaCreditCard color='#'/>}
           title="Expense Card"
         />
 
         <PayBills
-          iconBg=""
-          icon={<IoMdHome />}
+          iconBg="#00000026"
+          icon={<IoMdHome color='#'/>}
           title="Discover Business"
         />
 
@@ -88,44 +92,44 @@ const BusinessDropDown = () => {
 
 
 
-      <div className='  bg-[#8a8a8a5b] px-10 py-7 flex flex-col gap-5 rounded-tr-[5px] rounded-br-[5px]'>
+      <div className='  bg-[#f3eeee] px-10 py-7 flex flex-col gap-5 rounded-tr-[5px] rounded-br-[5px] z-50'>
         <h1 className=' text-[#505050]'>PAYMENTS</h1>
 
         <PayBills
-          iconBg=""
-          icon={<RiTelegram2Fill />}
+          iconBg="#31c41e25"
+          icon={<RiTelegram2Fill color='#31c41e'/>}
           title="Send Money"
         />
 
         <PayBills
-          iconBg=""
-          icon={<MdLiveTv />}
+          iconBg="#0ccaec25"
+          icon={<MdLiveTv color='#0ccaec'/>}
           title="TV"
         />
 
         <PayBills
-          iconBg=""
-          icon={<FaMobileAlt />}
+          iconBg="#31c41e25"
+          icon={<FaMobileAlt color='#31c41e'/>}
           title="Airtime & Internet Data"
         />
 
 
         <PayBills
-          iconBg=""
-          icon={<BsLightningFill />}
+          iconBg="#e6262625"
+          icon={<BsLightningFill color='#e62626'/>}
           title="Electricity"
         />
 
         <PayBills
-          iconBg=""
-          icon={<FaRegMoneyBillAlt />}
+          iconBg="#0ccaec25"
+          icon={<FaRegMoneyBillAlt color='#0ccaec'/>}
           title="Bill Payments"
         />
 
         <h1 className=' text-[#505050]'>CREDIT</h1>
         <PayBills
-          iconBg=""
-          icon={<TbMoneybag />}
+          iconBg="#00000026"
+          icon={<TbMoneybag color='#'/>}
           title="Businedd Loan"
         />
 
@@ -134,26 +138,26 @@ const BusinessDropDown = () => {
         <h1 className=' text-[#505050]'>COLLECTIONS</h1>
 
         <PayBills
-          iconBg=""
-          icon={<TbDeviceLandlinePhone />}
+          iconBg="#31c41e25"
+          icon={<TbDeviceLandlinePhone color='#'/>}
           title="softPOS"
         />
 
         <PayBills
-          iconBg=""
-          icon={<FaFileInvoiceDollar />}
+          iconBg="#0ccaec25"
+          icon={<FaFileInvoiceDollar color='#0ccaec'/>}
           title="Invoicing for Businedd"
         />
 
         <PayBills
-          iconBg=""
-          icon={<BsPhone />}
+          iconBg="#31c41e25"
+          icon={<BsPhone color='#'/>}
           title="POS Machine"
         />
 
         <PayBills
-          iconBg=""
-          icon={<MdOutlineMobileOff />}
+          iconBg="#0ccaec25"
+          icon={<MdOutlineMobileOff color='#'/>}
           title="Virtual POS"
         />
 

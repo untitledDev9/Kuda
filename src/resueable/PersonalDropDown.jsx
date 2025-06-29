@@ -31,32 +31,32 @@ const PersonalDropDown = () => {
           '>
 
             <PayBills
-              iconBg=""
-              icon={<IoMdHome />}
+              iconBg="#6a007a25"
+              icon={<IoMdHome color='#6a007a'/>}
               title="Discover Personal"
             />
 
             <PayBills
-              iconBg=""
-              icon={<RiTelegram2Fill />}
+              iconBg="#31c41e25"
+              icon={<RiTelegram2Fill color='#31c41e'/>}
               title="Transfer & Spend"
             />
 
             <PayBills
-              iconBg=""
-              icon={<HiSaveAs />}
+              iconBg="#c4871e25"
+              icon={<HiSaveAs color='#c4871e'/>}
               title=" Save"
             />
 
             <PayBills
-              iconBg=""
-              icon={<GiNetworkBars />}
+              iconBg="#6a007a25"
+              icon={<GiNetworkBars color='#6a007a'/>}
               title="Investments"
             />
 
             <PayBills
-              iconBg=""
-              icon={<FaCreditCard />}
+              iconBg="#31c41e25"
+              icon={<FaCreditCard color='#31c41e'/>}
               title="Kuda Card"
             />
           </div>
@@ -66,63 +66,63 @@ const PersonalDropDown = () => {
             <h1 className=' text-[#505050] max-tablet:text-[10px]'>PAYMENTS</h1>
 
             <PayBills
-              iconBg=""
-              icon={<BsLightningFill />}
+              iconBg="#e6262625"
+              icon={<BsLightningFill color='#e62626'/>}
               title="Electricity"
             />
 
             <PayBills
-              iconBg=""
-              icon={<FaMobileAlt />}
+              iconBg="#31c41e25"
+              icon={<FaMobileAlt color='#31c41e'/>}
               title="Airtime"
             />
 
             <PayBills
-              iconBg=""
-              icon={<FaWifi />}
+              iconBg="#0ccaec25"
+              icon={<FaWifi color='#0ccaec'/>}
               title="Internet"
             />
 
             <PayBills
-              iconBg=""
-              icon={<IoMdGift />}
+              iconBg="#6a007a25"
+              icon={<IoMdGift color='#6a007a'/>}
               title="Gift Cards"
             />
 
             <PayBills
-              iconBg=""
-              icon={<TbWorldDollar />}
+              iconBg="#c4871e25"
+              icon={<TbWorldDollar color='#c4871e'/>}
               title="Cardless Payments"
             />
 
             <PayBills
-              iconBg=""
-              icon={<MdLiveTv />}
+              iconBg="#0ccaec25"
+              icon={<MdLiveTv color='#0ccaec'/>}
               title="TV"
             />
 
             <PayBills
-              iconBg=""
-              icon={<TbArrowBigUpFilled />}
+              iconBg="#e6262625"
+              icon={<TbArrowBigUpFilled color='#e62626'/>}
               title="Betting"
             />
 
             <PayBills
-              iconBg=""
-              icon={<FaCar />}
+              iconBg="#31c41e25"
+              icon={<FaCar color='#31c41e'/>}
               title="Transport"
             />
             <h1 className=' text-[#505050] max-tablet:text-[10px]'>CREDIT</h1>
 
             <PayBills
-              iconBg=""
-              icon={<VscIssueDraft />}
+              iconBg="#0ccaec25"
+              icon={<VscIssueDraft color='#0ccaec'/>}
               title="Overdrafts"
             />
 
             <PayBills
-              iconBg=""
-              icon={<TbMoneybag />}
+              iconBg="#6a007a25"
+              icon={<TbMoneybag color='#6a007a'/>}
               title="Loans"
             />
           </div>
