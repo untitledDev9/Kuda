@@ -19,8 +19,8 @@ import PayBills from "../resueable/PayBills";
 
 const BusinessDropDown = () => {
   return (
-    <div className=" absolute top-14 shadow-[0_4px_12px_rgba(0,0,0,0.2)]">
-    <div className=' flex bg-white w-[100%] '>
+    <div className=" absolute top-14 shadow-[0_4px_12px_rgba(0,0,0,0.2)] rounded-[5px]">
+    <div className=' flex bg-white w-[100%] rounded-[5px]'>
       <div className=' flex flex-col px-10 gap-5 py-7'>
 
         <PayBills
@@ -88,7 +88,7 @@ const BusinessDropDown = () => {
 
 
 
-      <div className='  bg-[#8a8a8a5b] px-10 py-7 flex flex-col gap-5'>
+      <div className='  bg-[#8a8a8a5b] px-10 py-7 flex flex-col gap-5 rounded-tr-[5px] rounded-br-[5px]'>
         <h1 className=' text-[#505050]'>PAYMENTS</h1>
 
         <PayBills

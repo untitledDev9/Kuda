@@ -2,7 +2,7 @@ import React from 'react'
 
 const PayBills = ({icon, iconBg, title}) => {
   return (
-    <div className=' flex items-center gap-4'>
+    <div className=' flex items-center gap-4 '>
       <div
       style={{
         backgroundColor: iconBg,

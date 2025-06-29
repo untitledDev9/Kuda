@@ -23,7 +23,7 @@ const PersonalDropDown = () => {
       <div className=' absolute top-14 shadow-[0_4px_12px_rgba(0,0,0,0.2)]
       max-tablet:static max-tablet:shadow-[0_4px_12px_rgba(0,0,0,0)]
       '>
-        <div className=' flex bg-white w-[100%] 
+        <div className=' flex bg-white w-[100%] rounded-[5px]
         max-tablet:block
         '>
           <div className=' flex flex-col px-10 gap-5 py-7
@@ -60,7 +60,7 @@ const PersonalDropDown = () => {
               title="Kuda Card"
             />
           </div>
-          <div className='  bg-[#b8b8b831] px-10 py-7 flex flex-col gap-5 w-[330px]
+          <div className='  bg-[#b8b8b831] px-10 py-7 flex flex-col gap-5 w-[330px] rounded-tr-[5px] rounded-br-[5px]
             max-tablet:px-6 max-tablet:text-[13px] max-tablet:bg-white
             '>
             <h1 className=' text-[#505050] max-tablet:text-[10px]'>PAYMENTS</h1>
